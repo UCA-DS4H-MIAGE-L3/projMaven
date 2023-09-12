@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: exemple1.BoiteTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.026 s <<< FAILURE! -- in exemple1.BoiteTest
+exemple1.BoiteTest.testSetHauteur -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
+	at exemple1.BoiteTest.testSetHauteur(BoiteTest.java:65)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+exemple1.BoiteTest.testSetLongueur -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
+	at exemple1.BoiteTest.testSetLongueur(BoiteTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+exemple1.BoiteTest.testGetLongueur -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
+	at exemple1.BoiteTest.testGetLongueur(BoiteTest.java:50)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+exemple1.BoiteTest.testBoiteIntIntInt -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
+	at exemple1.BoiteTest.testBoiteIntIntInt(BoiteTest.java:25)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+exemple1.BoiteTest.testGetHauteur -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
+	at exemple1.BoiteTest.testGetHauteur(BoiteTest.java:60)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
