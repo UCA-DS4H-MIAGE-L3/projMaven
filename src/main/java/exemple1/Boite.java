@@ -1,5 +1,8 @@
 package exemple1;
 
+/**
+ * La classe Boite représente une boite recatngulaire qui contient des jouets
+ */
 public class Boite {
 
 	protected int largeur;
@@ -8,7 +11,13 @@ public class Boite {
 	Jouet typeJouet;
 	int nbJouet = 0;
 	
-	int ajouteJouet(Jouet j) {
+	/**
+	 * Permet d'ajouter un jouet à la boite.
+	 * Mais si le jouet est différent des jouets déjà présents on remplace les anciens jouets
+	 * @param j : le jouet à rajouter
+	 * @return le nombre de jouets dans la boite
+	 */
+	public int ajouteJouet(Jouet j) {
 		if ((typeJouet != null) && (typeJouet.nom() == j.nom())) {
 			nbJouet++;
 		}
